@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>☁️Forecasted</title>
+    <link rel="stylesheet" href="src/styles.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+  <body>
+    <div class="container">
+      <h1>Forecasted</h1>
+      <h2>Weather App</h2>
+      <h3 class="dateElement" id="date"> Date:</h3>
+      <div class="search">
+          <form id="citySearch-form">
+          <input type="text" id="city" placeholder="Enter a city" />
+          <input type="submit" value="Search" />
+         </form>
+      </div>
+       <div class="row">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Current Location: Unknown </h4> 
+          <h5 class="cardOne">☀️</h5>
+        </div>
+      </div>
+    </div> <div class="row">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <p class="cardTwo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+    <button class="first">Current</button>
+    <button class="second"> Daily</button>
+    </div>
+    </div>
+    <script src="src/script.js"> </script>
+  </body>
+</html> 
